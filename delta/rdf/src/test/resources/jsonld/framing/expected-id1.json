@@ -1,0 +1,21 @@
+{
+  "@id": "https://bbp.epfl.ch/neurosciencegraph/data/1930647a-4c68-4fef-a7f2-06828655eb6f",
+  "@type": "https://neuroshapes.org/PatchedCell",
+  "brainRegion": {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0008933",
+    "idLabel": "http://purl.obolibrary.org/obo/UBERON_0008933|primary somatosensory cortex",
+    "identifier": "http://purl.obolibrary.org/obo/UBERON_0008933",
+    "label": "primary somatosensory cortex"
+  },
+  "createdAt": "2020-12-15T09:19:52.675Z",
+  "createdBy": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma",
+  "deprecated": false,
+  "name": "C140201A1-MT-C1",
+  "project": {
+    "identifier": "https://bbp.epfl.ch/nexus/v1/projects/public/sscx",
+    "label": "public/sscx"
+  },
+  "_self": "https://bbp.epfl.ch/nexus/v1/resources/public/sscx/datashapes:patchedcell/1930647a-4c68-4fef-a7f2-06828655eb6f",
+  "updatedAt": "2021-06-30T20:38:22.510Z",
+  "updatedBy": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+}

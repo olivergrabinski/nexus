@@ -1,0 +1,1101 @@
+[
+  {
+    "@id": "UBERON:0005394",
+    "https://bluebrain.github.io/nexus/field/idLabel": [
+      {
+        "@value": "UBERON:0005394|layer 5"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "UBERON:0005394"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "layer 5"
+      }
+    ]
+  },
+  {
+    "@id": "UBERON:0008933",
+    "https://bluebrain.github.io/nexus/field/idLabel": [
+      {
+        "@value": "UBERON:0008933|primary somatosensory cortex"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "UBERON:0008933"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "primary somatosensory cortex"
+      }
+    ]
+  },
+  {
+    "@id": "_:t1093112",
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "12 days Post-natal"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/period": [
+      {
+        "@value": "Post-natal"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/unit": [
+      {
+        "@value": "days"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "12"
+      }
+    ]
+  },
+  {
+    "@id": "_:t1093115",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity",
+      "https://neuroshapes.org/PatchedCell"
+    ],
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "https://bbp.epfl.ch/neurosciencegraph/data/35702278-7048-4e0e-83c0-894b3ba2d4ef"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "C070109A4-C1"
+      }
+    ]
+  },
+  {
+    "@id": "_:t1093117",
+    "https://bluebrain.github.io/nexus/field/contentSize": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "9029783"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/contentUrl": [
+      {
+        "@id": "https://bbp.epfl.ch/nexus/v1/files/public/sscx/795ec729-ba4e-4774-86fc-ad3a98956aac"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/encodingFormat": [
+      {
+        "@value": "application/nwb"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "C070109A4-C1-SR.nwb"
+      }
+    ]
+  },
+  {
+    "@id": "_:t1198713",
+    "https://bluebrain.github.io/nexus/field/contentSize": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "728891"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/contentUrl": [
+      {
+        "@id": "https://bbp.epfl.ch/nexus/v1/files/public/sscx/fc555372-2d06-42e4-88e8-0c262e6ede79"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/encodingFormat": [
+      {
+        "@value": "application/swc"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "C060114A6.swc"
+      }
+    ]
+  },
+  {
+    "@id": "_:t1198716",
+    "https://bluebrain.github.io/nexus/field/contentSize": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "794097"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/contentUrl": [
+      {
+        "@id": "https://bbp.epfl.ch/nexus/v1/files/public/sscx/9a852080-087c-4b79-9b2e-612710fe5cae"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/encodingFormat": [
+      {
+        "@value": "application/asc"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "C060114A6.asc"
+      }
+    ]
+  },
+  {
+    "@id": "_:t1198719",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity",
+      "https://neuroshapes.org/PatchedCell"
+    ],
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "https://bbp.epfl.ch/neurosciencegraph/data/4faa54dc-12ad-4469-b849-97c2b90d8e12"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "C060114A6-SR-C1"
+      }
+    ]
+  },
+  {
+    "@id": "_:t957104",
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "14 days Post-natal"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/period": [
+      {
+        "@value": "Post-natal"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/unit": [
+      {
+        "@value": "days"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "14"
+      }
+    ]
+  },
+  {
+    "@id": "_:t957118",
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "14 days Post-natal"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/period": [
+      {
+        "@value": "Post-natal"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/unit": [
+      {
+        "@value": "days"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "14"
+      }
+    ]
+  },
+  {
+    "@id": "_:t958903",
+    "https://bluebrain.github.io/nexus/field/statistic": [
+      {
+        "@value": "standard deviation"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/unit": [
+      {
+        "@value": "µm"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "29"
+      }
+    ]
+  },
+  {
+    "@id": "_:t958906",
+    "https://bluebrain.github.io/nexus/field/statistic": [
+      {
+        "@value": "N"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/unit": [
+      {
+        "@value": "dimensionless"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "9"
+      }
+    ]
+  },
+  {
+    "@id": "_:t958907",
+    "@type": [
+      "http://www.w3.org/ns/prov#Entity",
+      "https://neuroshapes.org/SliceCollection"
+    ],
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "https://bbp.epfl.ch/neurosciencegraph/data/66ac0e58-5f4d-4c26-92ff-ad9fcebaca86"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "P14-16"
+      }
+    ]
+  },
+  {
+    "@id": "_:t958908",
+    "https://bluebrain.github.io/nexus/field/statistic": [
+      {
+        "@value": "mean"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/unit": [
+      {
+        "@value": "µm"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "500.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:t959197",
+    "https://bluebrain.github.io/nexus/field/statistic": [
+      {
+        "@value": "data point"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/unit": [
+      {
+        "@value": "neurons/mm³"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "132850.89272143925"
+      }
+    ]
+  },
+  {
+    "@id": "_:t959198",
+    "https://bluebrain.github.io/nexus/field/statistic": [
+      {
+        "@value": "N"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/unit": [
+      {
+        "@value": "dimensionless"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ]
+  },
+  {
+    "@id": "_:u6c559206-4ee1-4f1b-86d3-4669f9d55827",
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "https://bbp.epfl.ch/neurosciencegraph/data/licenses/97521f71-605d-4f42-8f1b-c37e742a30bf"
+      },
+      {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "SSCX Portal Data Licence final v1.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:u7ba9cc9c-db52-4ef7-a333-53fc5a5d5352",
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "500.0 µm (N = 9)"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/nValue": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "9"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/unit": [
+      {
+        "@value": "µm"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "500.0"
+      }
+    ]
+  },
+  {
+    "@id": "_:ub4c7c9b3-2859-4c05-8439-76344cae2101",
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "132850.89272143925 neurons/mm³ (N = 1)"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/nValue": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#integer",
+        "@value": "1"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/unit": [
+      {
+        "@value": "neurons/mm³"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/value": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#double",
+        "@value": "132850.89272143925"
+      }
+    ]
+  },
+  {
+    "@id": "_:ubcff56d9-28b8-4c14-8b44-7494e4901271",
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "https://bbp.epfl.ch/nexus/v1/projects/public/sscx"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "public/sscx"
+      }
+    ]
+  },
+  {
+    "@id": "http://bbp.epfl.ch/neurosciencegraph/ontologies/celltypes/etypes/cADpyr",
+    "https://bluebrain.github.io/nexus/field/idLabel": [
+      {
+        "@value": "http://bbp.epfl.ch/neurosciencegraph/ontologies/celltypes/etypes/cADpyr|cADpyr"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "http://bbp.epfl.ch/neurosciencegraph/ontologies/celltypes/etypes/cADpyr"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "cADpyr"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10116",
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "Rattus norvegicus"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005393",
+    "https://bluebrain.github.io/nexus/field/idLabel": [
+      {
+        "@value": "http://purl.obolibrary.org/obo/UBERON_0005393|layer 4"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005393"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "layer 4"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0005394",
+    "https://bluebrain.github.io/nexus/field/idLabel": [
+      {
+        "@value": "http://purl.obolibrary.org/obo/UBERON_0005394|layer 5"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005394"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "layer 5"
+      }
+    ]
+  },
+  {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0008933",
+    "https://bluebrain.github.io/nexus/field/idLabel": [
+      {
+        "@value": "http://purl.obolibrary.org/obo/UBERON_0008933|primary somatosensory cortex"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0008933"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "primary somatosensory cortex"
+      }
+    ]
+  },
+  {
+    "@id": "http://uri.interlex.org/base/ilx_0381365",
+    "https://bluebrain.github.io/nexus/field/idLabel": [
+      {
+        "@value": "http://uri.interlex.org/base/ilx_0381365|L5_TPC:A"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "http://uri.interlex.org/base/ilx_0381365"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "L5_TPC:A"
+      }
+    ]
+  },
+  {
+    "@id": "https://bbp.epfl.ch/neurosciencegraph/data/1930647a-4c68-4fef-a7f2-06828655eb6f",
+    "@type": [
+      "https://neuroshapes.org/PatchedCell"
+    ],
+    "https://bluebrain.github.io/nexus/field/brainRegion": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0008933"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/createdAt": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-12-15T09:19:52.675Z"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/createdBy": [
+      {
+        "@value": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/deprecated": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/name": [
+      {
+        "@value": "C140201A1-MT-C1"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/project": [
+      {
+        "@id": "_:ubcff56d9-28b8-4c14-8b44-7494e4901271"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/self": [
+      {
+        "@id": "https://bbp.epfl.ch/nexus/v1/resources/public/sscx/datashapes:patchedcell/1930647a-4c68-4fef-a7f2-06828655eb6f"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/updatedAt": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2021-06-30T20:38:22.510Z"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/updatedBy": [
+      {
+        "@value": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+      }
+    ]
+  },
+  {
+    "@id": "https://bbp.epfl.ch/neurosciencegraph/data/2f8814d6-a40f-4377-a675-e164816c5d73",
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "Reconstruction and Simulation of Neocortical Microcircuitry"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/propertyID": [
+      {
+        "@value": "doi"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/value": [
+      {
+        "@value": "https://doi.org/10.1016/j.cell.2015.09.029"
+      }
+    ]
+  },
+  {
+    "@id": "https://bbp.epfl.ch/neurosciencegraph/data/9da2884c-bfcd-43d8-9986-202d9a1cda51",
+    "@type": [
+      "https://neuroshapes.org/LayerThickness"
+    ],
+    "https://bluebrain.github.io/nexus/field/brainRegion": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0008933"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/contributors": [
+      {
+        "@id": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/dakeller"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/createdAt": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-04-07T14:59:28.148Z"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/createdBy": [
+      {
+        "@value": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/harikris"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/deprecated": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/derivation": [
+      {
+        "@id": "_:t958907"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/layer": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005394"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/layerThickness": [
+      {
+        "@id": "_:u7ba9cc9c-db52-4ef7-a333-53fc5a5d5352"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/name": [
+      {
+        "@value": "Cortical Layer thickness - layer 5"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/project": [
+      {
+        "@id": "_:ubcff56d9-28b8-4c14-8b44-7494e4901271"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/self": [
+      {
+        "@id": "https://bbp.epfl.ch/nexus/v1/resources/public/sscx/datashapes:entity/9da2884c-bfcd-43d8-9986-202d9a1cda51"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/series": [
+      {
+        "@id": "_:t958903"
+      },
+      {
+        "@id": "_:t958906"
+      },
+      {
+        "@id": "_:t958908"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/subjectAge": [
+      {
+        "@id": "_:t957118"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/subjectSpecies": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/updatedAt": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2021-06-30T20:49:36.017Z"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/updatedBy": [
+      {
+        "@value": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+      }
+    ]
+  },
+  {
+    "@id": "https://bbp.epfl.ch/neurosciencegraph/data/c664c21a-4d5f-4e01-bdd1-1b7953bf55b7",
+    "https://bluebrain.github.io/nexus/field/protocol": [
+      {
+        "@id": "https://bbp.epfl.ch/neurosciencegraph/data/2f8814d6-a40f-4377-a675-e164816c5d73"
+      }
+    ]
+  },
+  {
+    "@id": "https://bbp.epfl.ch/neurosciencegraph/data/densities/34cf9e78-c7b4-4bcb-829e-40cce324b5dd",
+    "@type": [
+      "https://neuroshapes.org/Density",
+      "https://neuroshapes.org/NeuronDensity"
+    ],
+    "https://bluebrain.github.io/nexus/field/brainRegion": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0008933"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/createdAt": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-03-11T09:22:58.007Z"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/createdBy": [
+      {
+        "@value": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/harikris"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/deprecated": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/layer": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005393"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/license": [
+      {
+        "@id": "_:u6c559206-4ee1-4f1b-86d3-4669f9d55827"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/name": [
+      {
+        "@value": "P14-17_4"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/neuronDensity": [
+      {
+        "@id": "_:ub4c7c9b3-2859-4c05-8439-76344cae2101"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/organizations": [
+      {
+        "@id": "https://www.grid.ac/institutes/grid.419043.b"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/project": [
+      {
+        "@id": "_:ubcff56d9-28b8-4c14-8b44-7494e4901271"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/self": [
+      {
+        "@id": "https://bbp.epfl.ch/nexus/v1/resources/public/sscx/datashapes:entity/densities%2F34cf9e78-c7b4-4bcb-829e-40cce324b5dd"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/series": [
+      {
+        "@id": "_:t959197"
+      },
+      {
+        "@id": "_:t959198"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/subjectAge": [
+      {
+        "@id": "_:t957104"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/subjectSpecies": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/updatedAt": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2021-07-20T08:25:54.906Z"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/updatedBy": [
+      {
+        "@value": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+      }
+    ]
+  },
+  {
+    "@id": "https://bbp.epfl.ch/neurosciencegraph/data/f96ceed4-9326-4888-99ea-ada2d29b0235",
+    "@type": [
+      "https://neuroshapes.org/Subject"
+    ],
+    "https://bluebrain.github.io/nexus/field/createdAt": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2020-12-16T17:18:01.198Z"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/createdBy": [
+      {
+        "@value": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/deprecated": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/name": [
+      {
+        "@value": "1394 - P14 male Rattus norvegicus Wistar Han"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/project": [
+      {
+        "@id": "_:ubcff56d9-28b8-4c14-8b44-7494e4901271"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/self": [
+      {
+        "@id": "https://bbp.epfl.ch/nexus/v1/resources/public/sscx/datashapes:subject/f96ceed4-9326-4888-99ea-ada2d29b0235"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/updatedAt": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2021-06-30T20:48:01.742Z"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/updatedBy": [
+      {
+        "@value": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+      }
+    ]
+  },
+  {
+    "@id": "https://bbp.epfl.ch/neurosciencegraph/data/neuronmorphologies/3c27e001-6a03-4680-b226-9fe934f4b2ed",
+    "@type": [
+      "https://neuroshapes.org/ReconstructedCell",
+      "https://neuroshapes.org/NeuronMorphology"
+    ],
+    "https://bluebrain.github.io/nexus/field/brainRegion": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0008933"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/createdAt": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2021-11-23T11:30:54.771Z"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/createdBy": [
+      {
+        "@value": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/deprecated": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/derivation": [
+      {
+        "@id": "_:t1198719"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/description": [
+      {
+        "@value": "This dataset is about an in vitro-filled neuron morphology from layer 5 with m-type L5_TPC:A. The distribution contains the neuron morphology in ASC and in SWC file format."
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/distribution": [
+      {
+        "@id": "_:t1198713"
+      },
+      {
+        "@id": "_:t1198716"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/generation": [
+      {
+        "@id": "https://bbp.epfl.ch/neurosciencegraph/data/c664c21a-4d5f-4e01-bdd1-1b7953bf55b7"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/layer": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/UBERON_0005394"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/license": [
+      {
+        "@id": "_:u6c559206-4ee1-4f1b-86d3-4669f9d55827"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/mType": [
+      {
+        "@id": "http://uri.interlex.org/base/ilx_0381365"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/name": [
+      {
+        "@value": "C060114A6"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/organizations": [
+      {
+        "@id": "https://www.grid.ac/institutes/grid.5333.6"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/project": [
+      {
+        "@id": "_:ubcff56d9-28b8-4c14-8b44-7494e4901271"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/self": [
+      {
+        "@id": "https://bbp.epfl.ch/nexus/v1/resources/public/sscx/datashapes:neuronmorphology/neuronmorphologies%2F3c27e001-6a03-4680-b226-9fe934f4b2ed"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/subjectSpecies": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/updatedAt": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2021-11-23T11:30:54.771Z"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/updatedBy": [
+      {
+        "@value": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+      }
+    ]
+  },
+  {
+    "@id": "https://bbp.epfl.ch/neurosciencegraph/data/persons/6fd6f0e5-80bb-4da4-add3-86bc67ef29a3",
+    "https://bluebrain.github.io/nexus/field/idLabel": [
+      {
+        "@value": "https://bbp.epfl.ch/neurosciencegraph/data/persons/6fd6f0e5-80bb-4da4-add3-86bc67ef29a3|Sandrine Romand"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "https://bbp.epfl.ch/neurosciencegraph/data/persons/6fd6f0e5-80bb-4da4-add3-86bc67ef29a3"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "Sandrine Romand"
+      }
+    ]
+  },
+  {
+    "@id": "https://bbp.epfl.ch/neurosciencegraph/data/traces/7f604b81-b8f6-4831-95a3-3315323770ed",
+    "@type": [
+      "https://neuroshapes.org/Trace"
+    ],
+    "https://bluebrain.github.io/nexus/field/brainRegion": [
+      {
+        "@id": "UBERON:0008933"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/contributors": [
+      {
+        "@id": "https://bbp.epfl.ch/neurosciencegraph/data/persons/6fd6f0e5-80bb-4da4-add3-86bc67ef29a3"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/createdAt": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2021-02-09T16:34:30.398Z"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/createdBy": [
+      {
+        "@value": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/deprecated": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+        "@value": "false"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/derivation": [
+      {
+        "@id": "_:t1093115"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/description": [
+      {
+        "@value": "This dataset is about the subset of experimental traces from cell C070109A4-C1-SR which were used to build electrical models. While the displayed traces are the subset used for modelling, the NWB file in the distribution contains all traces."
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/distribution": [
+      {
+        "@id": "_:t1093117"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/eType": [
+      {
+        "@id": "http://bbp.epfl.ch/neurosciencegraph/ontologies/celltypes/etypes/cADpyr"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/layer": [
+      {
+        "@id": "UBERON:0005394"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/license": [
+      {
+        "@id": "_:u6c559206-4ee1-4f1b-86d3-4669f9d55827"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/name": [
+      {
+        "@value": "C070109A4-C1-SR"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/project": [
+      {
+        "@id": "_:ubcff56d9-28b8-4c14-8b44-7494e4901271"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/self": [
+      {
+        "@id": "https://bbp.epfl.ch/nexus/v1/resources/public/sscx/datashapes:dataset/traces%2F7f604b81-b8f6-4831-95a3-3315323770ed"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/subjectAge": [
+      {
+        "@id": "_:t1093112"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/subjectSpecies": [
+      {
+        "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10116"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/updatedAt": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+        "@value": "2021-09-29T15:21:24.741Z"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/updatedBy": [
+      {
+        "@value": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+      }
+    ]
+  },
+  {
+    "@id": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/dakeller",
+    "https://bluebrain.github.io/nexus/field/idLabel": [
+      {
+        "@value": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/dakeller|Daniel Keller"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/dakeller"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "Daniel Keller"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.grid.ac/institutes/grid.419043.b",
+    "https://bluebrain.github.io/nexus/field/idLabel": [
+      {
+        "@value": "https://www.grid.ac/institutes/grid.419043.b|Cajal Institute"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "https://www.grid.ac/institutes/grid.419043.b"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "Cajal Institute"
+      }
+    ]
+  },
+  {
+    "@id": "https://www.grid.ac/institutes/grid.5333.6",
+    "https://bluebrain.github.io/nexus/field/idLabel": [
+      {
+        "@value": "https://www.grid.ac/institutes/grid.5333.6|École Polytechnique Fédérale de Lausanne"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/identifier": [
+      {
+        "@id": "https://www.grid.ac/institutes/grid.5333.6"
+      }
+    ],
+    "https://bluebrain.github.io/nexus/field/label": [
+      {
+        "@value": "École Polytechnique Fédérale de Lausanne"
+      }
+    ]
+  }
+]

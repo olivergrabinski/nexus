@@ -1,0 +1,87 @@
+{
+  "@id": "https://bbp.epfl.ch/neurosciencegraph/data/neuronmorphologies/3c27e001-6a03-4680-b226-9fe934f4b2ed",
+  "@type": [
+    "https://neuroshapes.org/NeuronMorphology",
+    "https://neuroshapes.org/ReconstructedCell"
+  ],
+  "brainRegion": {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0008933",
+    "idLabel": "http://purl.obolibrary.org/obo/UBERON_0008933|primary somatosensory cortex",
+    "identifier": "http://purl.obolibrary.org/obo/UBERON_0008933",
+    "label": "primary somatosensory cortex"
+  },
+  "createdAt": "2021-11-23T11:30:54.771Z",
+  "createdBy": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma",
+  "deprecated": false,
+  "derivation": [
+    {
+      "@type": [
+        "http://www.w3.org/ns/prov#Entity",
+        "https://neuroshapes.org/PatchedCell"
+      ],
+      "identifier": "https://bbp.epfl.ch/neurosciencegraph/data/4faa54dc-12ad-4469-b849-97c2b90d8e12",
+      "label": "C060114A6-SR-C1"
+    }
+  ],
+  "description": "This dataset is about an in vitro-filled neuron morphology from layer 5 with m-type L5_TPC:A. The distribution contains the neuron morphology in ASC and in SWC file format.",
+  "distribution": [
+    {
+      "contentSize": 728891,
+      "contentUrl": "https://bbp.epfl.ch/nexus/v1/files/public/sscx/fc555372-2d06-42e4-88e8-0c262e6ede79",
+      "encodingFormat": "application/swc",
+      "label": "C060114A6.swc"
+    },
+    {
+      "contentSize": 794097,
+      "contentUrl": "https://bbp.epfl.ch/nexus/v1/files/public/sscx/9a852080-087c-4b79-9b2e-612710fe5cae",
+      "encodingFormat": "application/asc",
+      "label": "C060114A6.asc"
+    }
+  ],
+  "generation": {
+    "@id": "https://bbp.epfl.ch/neurosciencegraph/data/c664c21a-4d5f-4e01-bdd1-1b7953bf55b7",
+    "protocol": [
+      {
+        "@id": "https://bbp.epfl.ch/neurosciencegraph/data/2f8814d6-a40f-4377-a675-e164816c5d73"
+      }
+    ]
+  },
+  "layer": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/UBERON_0005394",
+      "idLabel": "http://purl.obolibrary.org/obo/UBERON_0005394|layer 5",
+      "identifier": "http://purl.obolibrary.org/obo/UBERON_0005394",
+      "label": "layer 5"
+    }
+  ],
+  "license": {
+    "identifier": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "mType": {
+    "@id": "http://uri.interlex.org/base/ilx_0381365",
+    "idLabel": "http://uri.interlex.org/base/ilx_0381365|L5_TPC:A",
+    "identifier": "http://uri.interlex.org/base/ilx_0381365",
+    "label": "L5_TPC:A"
+  },
+  "name": "C060114A6",
+  "organizations": [
+    {
+      "@id": "https://www.grid.ac/institutes/grid.5333.6",
+      "idLabel": "https://www.grid.ac/institutes/grid.5333.6|École Polytechnique Fédérale de Lausanne",
+      "identifier": "https://www.grid.ac/institutes/grid.5333.6",
+      "label": "École Polytechnique Fédérale de Lausanne"
+    }
+  ],
+  "project": {
+    "identifier": "https://bbp.epfl.ch/nexus/v1/projects/public/sscx",
+    "label": "public/sscx"
+  },
+  "_self": "https://bbp.epfl.ch/nexus/v1/resources/public/sscx/datashapes:neuronmorphology/neuronmorphologies%2F3c27e001-6a03-4680-b226-9fe934f4b2ed",
+  "subjectSpecies": {
+    "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10116",
+    "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10116",
+    "label": "Rattus norvegicus"
+  },
+  "updatedAt": "2021-11-23T11:30:54.771Z",
+  "updatedBy": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+}

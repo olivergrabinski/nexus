@@ -1,0 +1,76 @@
+{
+  "@id": "https://bbp.epfl.ch/neurosciencegraph/data/traces/7f604b81-b8f6-4831-95a3-3315323770ed",
+  "@type": "https://neuroshapes.org/Trace",
+  "brainRegion": {
+    "@id": "UBERON:0008933",
+    "idLabel": "UBERON:0008933|primary somatosensory cortex",
+    "identifier": "UBERON:0008933",
+    "label": "primary somatosensory cortex"
+  },
+  "contributors": [
+    {
+      "@id": "https://bbp.epfl.ch/neurosciencegraph/data/persons/6fd6f0e5-80bb-4da4-add3-86bc67ef29a3",
+      "idLabel": "https://bbp.epfl.ch/neurosciencegraph/data/persons/6fd6f0e5-80bb-4da4-add3-86bc67ef29a3|Sandrine Romand",
+      "identifier": "https://bbp.epfl.ch/neurosciencegraph/data/persons/6fd6f0e5-80bb-4da4-add3-86bc67ef29a3",
+      "label": "Sandrine Romand"
+    }
+  ],
+  "createdAt": "2021-02-09T16:34:30.398Z",
+  "createdBy": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma",
+  "deprecated": false,
+  "derivation": [
+    {
+      "@type": [
+        "https://neuroshapes.org/PatchedCell",
+        "http://www.w3.org/ns/prov#Entity"
+      ],
+      "identifier": "https://bbp.epfl.ch/neurosciencegraph/data/35702278-7048-4e0e-83c0-894b3ba2d4ef",
+      "label": "C070109A4-C1"
+    }
+  ],
+  "description": "This dataset is about the subset of experimental traces from cell C070109A4-C1-SR which were used to build electrical models. While the displayed traces are the subset used for modelling, the NWB file in the distribution contains all traces.",
+  "distribution": [
+    {
+      "contentSize": 9029783,
+      "contentUrl": "https://bbp.epfl.ch/nexus/v1/files/public/sscx/795ec729-ba4e-4774-86fc-ad3a98956aac",
+      "encodingFormat": "application/nwb",
+      "label": "C070109A4-C1-SR.nwb"
+    }
+  ],
+  "eType": {
+    "@id": "http://bbp.epfl.ch/neurosciencegraph/ontologies/celltypes/etypes/cADpyr",
+    "idLabel": "http://bbp.epfl.ch/neurosciencegraph/ontologies/celltypes/etypes/cADpyr|cADpyr",
+    "identifier": "http://bbp.epfl.ch/neurosciencegraph/ontologies/celltypes/etypes/cADpyr",
+    "label": "cADpyr"
+  },
+  "layer": [
+    {
+      "@id": "UBERON:0005394",
+      "idLabel": "UBERON:0005394|layer 5",
+      "identifier": "UBERON:0005394",
+      "label": "layer 5"
+    }
+  ],
+  "license": {
+    "identifier": "https://bbp.epfl.ch/neurosciencegraph/data/licenses/97521f71-605d-4f42-8f1b-c37e742a30bf"
+  },
+  "name": "C070109A4-C1-SR",
+  "project": {
+    "identifier": "https://bbp.epfl.ch/nexus/v1/projects/public/sscx",
+    "label": "public/sscx"
+  },
+  "_self": "https://bbp.epfl.ch/nexus/v1/resources/public/sscx/datashapes:dataset/traces%2F7f604b81-b8f6-4831-95a3-3315323770ed",
+  "subjectAge": {
+    "label": "12 days Post-natal",
+    "period": "Post-natal",
+    "unit": "days",
+    "value": 12
+  },
+  "subjectSpecies": {
+    "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10116",
+    "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10116",
+    "label": "Rattus norvegicus"
+  },
+  "updatedAt": "2021-09-29T15:21:24.741Z",
+  "updatedBy": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+}

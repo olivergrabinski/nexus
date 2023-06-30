@@ -1,0 +1,15 @@
+{
+  "@id": "https://bbp.epfl.ch/neurosciencegraph/data/f96ceed4-9326-4888-99ea-ada2d29b0235",
+  "@type": "https://neuroshapes.org/Subject",
+  "createdAt": "2020-12-16T17:18:01.198Z",
+  "createdBy": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma",
+  "deprecated": false,
+  "name": "1394 - P14 male Rattus norvegicus Wistar Han",
+  "project": {
+    "identifier": "https://bbp.epfl.ch/nexus/v1/projects/public/sscx",
+    "label": "public/sscx"
+  },
+  "_self": "https://bbp.epfl.ch/nexus/v1/resources/public/sscx/datashapes:subject/f96ceed4-9326-4888-99ea-ada2d29b0235",
+  "updatedAt": "2021-06-30T20:48:01.742Z",
+  "updatedBy": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+}

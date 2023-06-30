@@ -1,0 +1,69 @@
+{
+  "@id": "https://bbp.epfl.ch/neurosciencegraph/data/9da2884c-bfcd-43d8-9986-202d9a1cda51",
+  "@type": "https://neuroshapes.org/LayerThickness",
+  "brainRegion": {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0008933",
+    "idLabel": "http://purl.obolibrary.org/obo/UBERON_0008933|primary somatosensory cortex",
+    "identifier": "http://purl.obolibrary.org/obo/UBERON_0008933",
+    "label": "primary somatosensory cortex"
+  },
+  "createdAt": "2020-04-07T14:59:28.148Z",
+  "createdBy": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/harikris",
+  "deprecated": false,
+  "derivation": [
+    {
+      "@type": "https://neuroshapes.org/SliceCollection",
+      "identifier": "https://bbp.epfl.ch/neurosciencegraph/data/66ac0e58-5f4d-4c26-92ff-ad9fcebaca86"
+    }
+  ],
+  "layer": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/UBERON_0005394",
+      "idLabel": "http://purl.obolibrary.org/obo/UBERON_0005394|layer 5",
+      "identifier": "http://purl.obolibrary.org/obo/UBERON_0005394",
+      "label": "layer 5"
+    }
+  ],
+  "layerThickness": {
+    "label": "500.0 µm (N = 9)",
+    "nValue": 9,
+    "unit": "µm",
+    "value": 500
+  },
+  "name": "Cortical Layer thickness - layer 5",
+  "project": {
+    "identifier": "https://bbp.epfl.ch/nexus/v1/projects/public/sscx",
+    "label": "public/sscx"
+  },
+  "_self": "https://bbp.epfl.ch/nexus/v1/resources/public/sscx/datashapes:entity/9da2884c-bfcd-43d8-9986-202d9a1cda51",
+  "series": [
+    {
+      "statistic": "standard deviation",
+      "unit": "µm",
+      "value": 29
+    },
+    {
+      "statistic": "mean",
+      "unit": "µm",
+      "value": 500
+    },
+    {
+      "statistic": "N",
+      "unit": "dimensionless",
+      "value": 9
+    }
+  ],
+  "subjectAge": {
+    "label": "14 days Post-natal",
+    "period": "Post-natal",
+    "unit": "days",
+    "value": 14
+  },
+  "subjectSpecies": {
+    "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10116",
+    "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10116",
+    "label": "Rattus norvegicus"
+  },
+  "updatedAt": "2021-06-30T20:49:36.017Z",
+  "updatedBy": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+}

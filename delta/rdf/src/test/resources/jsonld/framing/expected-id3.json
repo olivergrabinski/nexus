@@ -1,0 +1,72 @@
+{
+  "@id": "https://bbp.epfl.ch/neurosciencegraph/data/densities/34cf9e78-c7b4-4bcb-829e-40cce324b5dd",
+  "@type": [
+    "https://neuroshapes.org/Density",
+    "https://neuroshapes.org/NeuronDensity"
+  ],
+  "brainRegion": {
+    "@id": "http://purl.obolibrary.org/obo/UBERON_0008933",
+    "idLabel": "http://purl.obolibrary.org/obo/UBERON_0008933|primary somatosensory cortex",
+    "identifier": "http://purl.obolibrary.org/obo/UBERON_0008933",
+    "label": "primary somatosensory cortex"
+  },
+  "createdAt": "2020-03-11T09:22:58.007Z",
+  "createdBy": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/harikris",
+  "deprecated": false,
+  "layer": [
+    {
+      "@id": "http://purl.obolibrary.org/obo/UBERON_0005393",
+      "idLabel": "http://purl.obolibrary.org/obo/UBERON_0005393|layer 4",
+      "identifier": "http://purl.obolibrary.org/obo/UBERON_0005393",
+      "label": "layer 4"
+    }
+  ],
+  "license": {
+    "identifier": "https://bbp.epfl.ch/neurosciencegraph/data/licenses/97521f71-605d-4f42-8f1b-c37e742a30bf"
+  },
+  "name": "P14-17_4",
+  "neuronDensity": {
+    "label": "132850.89272143925 neurons/mm³ (N = 1)",
+    "nValue": 1,
+    "unit": "neurons/mm³",
+    "value": 132850.89272143925
+  },
+  "organizations": [
+    {
+      "@id": "https://www.grid.ac/institutes/grid.419043.b",
+      "idLabel": "https://www.grid.ac/institutes/grid.419043.b|Cajal Institute",
+      "identifier": "https://www.grid.ac/institutes/grid.419043.b",
+      "label": "Cajal Institute"
+    }
+  ],
+  "project": {
+    "identifier": "https://bbp.epfl.ch/nexus/v1/projects/public/sscx",
+    "label": "public/sscx"
+  },
+  "_self": "https://bbp.epfl.ch/nexus/v1/resources/public/sscx/datashapes:entity/densities%2F34cf9e78-c7b4-4bcb-829e-40cce324b5dd",
+  "series": [
+    {
+      "statistic": "data point",
+      "unit": "neurons/mm³",
+      "value": 132850.89272143925
+    },
+    {
+      "statistic": "N",
+      "unit": "dimensionless",
+      "value": 1
+    }
+  ],
+  "subjectAge": {
+    "label": "14 days Post-natal",
+    "period": "Post-natal",
+    "unit": "days",
+    "value": 14
+  },
+  "subjectSpecies": {
+    "@id": "http://purl.obolibrary.org/obo/NCBITaxon_10116",
+    "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_10116",
+    "label": "Rattus norvegicus"
+  },
+  "updatedAt": "2021-07-20T08:25:54.906Z",
+  "updatedBy": "https://bbp.epfl.ch/nexus/v1/realms/bbp/users/akkaufma"
+}
