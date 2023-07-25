@@ -10,7 +10,7 @@ on:
 jobs:
   static-analysis:
     if: github.event_name == 'pull_request'
-    runs-on: it
+    runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
       - name: Checkout

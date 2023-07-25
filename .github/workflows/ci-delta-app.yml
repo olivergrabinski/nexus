@@ -9,7 +9,7 @@ on:
 jobs:
   static-analysis:
     if: github.event_name == 'pull_request'
-    runs-on: it
+    runs-on: ubuntu-latest
     timeout-minutes: 10
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -25,7 +25,7 @@ jobs:
             app-static-analysis
   unit-tests:
     if: github.event_name == 'pull_request'
-    runs-on: it
+    runs-on: ubuntu-latest
     timeout-minutes: 20
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
