@@ -22,7 +22,7 @@ fn check_path(path: &str) -> Result<&Path, Failure> {
     let p = Path::new(path);
     if p.is_relative() {
         Err(PathMustBeAbsolute)
-    } else if !p.starts_with(get_path_prefix()) {
+    } else if !has_valid_prefix(p) {
         Err(PathMustStartWithPrefix)
     } else if !p.exists() {
         Err(FileNotFound)
@@ -84,7 +84,7 @@ fn set_group(path: &Path) -> Result<(), Failure> {
 
 fn set_custom_owner(path: &Path, uid: u32, gid: u32) -> Result<(), Failure> {
     let p = CString::new(path.as_os_str().as_bytes()).map_err(|_| PathCannotHaveNull)?;
-    let chown = unsafe { chown(p.as_ptr() as *const i8, uid, gid) };
+    let chown = unsafe { chown(p.as_ptr() as *const u8, uid, gid) };
     if chown == 0 {
         Ok(())
     } else {
@@ -94,7 +94,7 @@ fn set_custom_owner(path: &Path, uid: u32, gid: u32) -> Result<(), Failure> {
 
 fn set_permissions(path: &Path, mask: u32) -> Result<(), Failure> {
     let p = CString::new(path.as_os_str().as_bytes()).map_err(|_| PathCannotHaveNull)?;
-    let chmod = unsafe { chmod(p.as_ptr() as *const i8, mask.try_into().unwrap()) };
+    let chmod = unsafe { chmod(p.as_ptr() as *const u8, mask.try_into().unwrap()) };
     if chmod == 0 {
         Ok(())
     } else {
@@ -108,6 +108,14 @@ fn fetch_permissions(path: &Path) -> u32 {
 
 fn fetch_metadata(path: &Path) -> Metadata {
     fs::metadata(path).expect("failed to read file metadata")
+}
+
+fn has_valid_prefix(path: &Path) -> bool {
+    let valid_prefixes: Vec<&str> = get_path_prefix().split(',').collect();
+    for item in &valid_prefixes {
+        println!("{}", item);
+    }
+    return valid_prefixes.iter().any(|&prefix| path.starts_with(prefix));
 }
 
 #[cfg(test)]
@@ -125,8 +133,13 @@ mod tests {
         assert_eq!(check_path("../foo"), Err(PathMustBeAbsolute));
         assert_eq!(check_path("/foo"), Err(PathMustStartWithPrefix));
         assert_eq!(check_path("/tmp/nexus-fixer/bar"), Err(FileNotFound));
+
         assert!(touch(Path::new("/tmp/nexus-fixer/bar")).is_ok());
         assert!(check_path("/tmp/nexus-fixer/bar").is_ok());
+
+        assert!(touch(Path::new("/tmp/scratch/bar")).is_ok());
+        assert!(check_path("/tmp/scratch/bar").is_ok());
+
         assert_eq!(
             check_path("/tmp/nexus-fixer/../nexus-fixer/bar"),
             Err(PathMustBeCanonical)
@@ -262,5 +275,6 @@ mod tests {
 
     fn setup() {
         assert!(fs::create_dir_all("/tmp/nexus-fixer").is_ok());
+        assert!(fs::create_dir_all("/tmp/scratch").is_ok());
     }
 }
