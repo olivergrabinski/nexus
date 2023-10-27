@@ -35,6 +35,7 @@ import io.circe.generic.extras.Configuration
 import io.circe.generic.extras.semiauto.deriveConfiguredDecoder
 import kamon.instrumentation.akka.http.TracingDirectives.operationName
 
+import ch.epfl.bluebrain.nexus.delta.kernel.effect.migration._
 import scala.annotation.nowarn
 
 /**
@@ -75,7 +76,7 @@ final class FilesRoutes(
         extractCaller { implicit caller =>
           resolveProjectRef.apply { ref =>
             implicit class IndexOps(io: IO[FileResource]) {
-              def index(m: IndexingMode): IO[FileResource] = io.flatTap(self.index(ref, _, m))
+              def index(m: IndexingMode): IO[FileResource] = io.flatTap(self.index(ref, _, m).toCatsIO)
             }
 
             concat(

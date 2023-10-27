@@ -56,16 +56,19 @@ final class Projection private[stream] (
     *   the maximum time expected for the projection to complete
     * @return
     */
-  def waitForCompletion(timeout: FiniteDuration): Task[ExecutionStatus] =
-    executionStatus
-      .restartUntil {
-        case ExecutionStatus.Completed => true
-        case ExecutionStatus.Failed(_) => true
-        case ExecutionStatus.Stopped   => true
-        case _                         => false
-      }
+  def waitForCompletion(timeout: FiniteDuration): Task[ExecutionStatus] = {
+
+    executionStatus.restartUntil {
+      case ExecutionStatus.Ignored => true
+      case ExecutionStatus.Pending => false
+      case ExecutionStatus.Running => false
+      case ExecutionStatus.Stopped => true
+      case ExecutionStatus.Completed => true
+      case ExecutionStatus.Failed(_) => true
+    }
       .timeout(timeout)
       .flatMap(_ => executionStatus)
+  }
 
   /**
     * Stops the projection. Has no effect if the projection is already stopped.

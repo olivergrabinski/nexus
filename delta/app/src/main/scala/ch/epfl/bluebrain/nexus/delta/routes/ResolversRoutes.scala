@@ -29,6 +29,7 @@ import ch.epfl.bluebrain.nexus.delta.sdk.resolvers.model.{MultiResolutionResult,
 import ch.epfl.bluebrain.nexus.delta.sdk.resolvers.{MultiResolution, Resolvers}
 import ch.epfl.bluebrain.nexus.delta.sourcing.model.ProjectRef
 import io.circe.{Json, Printer}
+import ch.epfl.bluebrain.nexus.delta.kernel.effect.migration._
 
 /**
   * The resolver routes
@@ -88,7 +89,7 @@ final class ResolversRoutes(
       pathPrefix("resolvers") {
         extractCaller { implicit caller =>
           (resolveProjectRef & indexingMode) { (ref, mode) =>
-            def index(resolver: ResolverResource): IO[Unit] = indexAction(resolver.value.project, resolver, mode)
+            def index(resolver: ResolverResource): IO[Unit] = indexAction(resolver.value.project, resolver, mode).toCatsIO
             val authorizeRead                               = authorizeFor(ref, Read)
             val authorizeWrite                              = authorizeFor(ref, Write)
             concat(

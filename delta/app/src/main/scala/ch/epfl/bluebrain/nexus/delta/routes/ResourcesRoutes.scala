@@ -68,7 +68,7 @@ final class ResourcesRoutes(
     ResourceF.resourceFAJsonLdEncoder(ContextValue.empty)
 
   private def indexUIO(project: ProjectRef, resource: ResourceF[Resource], mode: IndexingMode) =
-    index(project, resource, mode).toUIO
+    index(project, resource, mode).hideErrors
 
   def routes: Route =
     baseUriPrefix(baseUri.prefix) {

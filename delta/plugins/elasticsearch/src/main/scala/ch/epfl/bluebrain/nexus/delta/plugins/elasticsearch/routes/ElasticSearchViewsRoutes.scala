@@ -3,7 +3,6 @@ package ch.epfl.bluebrain.nexus.delta.plugins.elasticsearch.routes
 import akka.http.scaladsl.model.StatusCodes.Created
 import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server._
-import ch.epfl.bluebrain.nexus.delta.kernel.effect.migration._
 import ch.epfl.bluebrain.nexus.delta.plugins.elasticsearch.model.ElasticSearchViewRejection._
 import ch.epfl.bluebrain.nexus.delta.plugins.elasticsearch.model._
 import ch.epfl.bluebrain.nexus.delta.plugins.elasticsearch.model.permissions.{read => Read, write => Write}
@@ -62,7 +61,7 @@ final class ElasticSearchViewsRoutes(
   import schemeDirectives._
 
   private def indexUIO(project: ProjectRef, resource: ResourceF[ElasticSearchView], mode: IndexingMode) =
-    index(project, resource, mode).toUIO
+    index(project, resource, mode).hideErrors
 
   def routes: Route =
     pathPrefix("views") {

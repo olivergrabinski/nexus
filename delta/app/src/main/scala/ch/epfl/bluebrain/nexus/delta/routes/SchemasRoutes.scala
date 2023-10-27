@@ -6,6 +6,7 @@ import akka.http.scaladsl.server.Directives._
 import akka.http.scaladsl.server._
 import cats.effect.IO
 import cats.implicits._
+import ch.epfl.bluebrain.nexus.delta.kernel.effect.migration._
 import ch.epfl.bluebrain.nexus.delta.rdf.Vocabulary.contexts
 import ch.epfl.bluebrain.nexus.delta.rdf.Vocabulary.schemas.shacl
 import ch.epfl.bluebrain.nexus.delta.rdf.jsonld.context.{ContextValue, RemoteContextResolution}
@@ -86,7 +87,7 @@ final class SchemasRoutes(
       pathPrefix("schemas") {
         extractCaller { implicit caller =>
           (resolveProjectRef & indexingMode) { (ref, mode) =>
-            def index(schema: SchemaResource): IO[Unit] = indexAction(schema.value.project, schema, mode)
+            def index(schema: SchemaResource): IO[Unit] = indexAction(schema.value.project, schema, mode).toCatsIO
             concat(
               // Create a schema without id segment
               (post & pathEndOrSingleSlash & noParameter("rev") & entity(as[Json])) { source =>

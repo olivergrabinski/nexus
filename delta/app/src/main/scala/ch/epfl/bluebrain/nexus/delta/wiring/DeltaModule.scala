@@ -74,8 +74,8 @@ class DeltaModule(appCfg: AppConfig, config: Config)(implicit classLoader: Class
   many[MetadataContextValue].addEffect(MetadataContextValue.fromFile("contexts/metadata.json"))
 
   make[AggregateIndexingAction].from {
-    (internal: Set[IndexingAction], contextShift: ContextShift[IO], cr: RemoteContextResolution @Id("aggregate")) =>
-      AggregateIndexingAction(NonEmptyList.fromListUnsafe(internal.toList))(contextShift, cr)
+    (internal: Set[IndexingAction], cr: RemoteContextResolution @Id("aggregate")) =>
+      AggregateIndexingAction(NonEmptyList.fromListUnsafe(internal.toList))(cr)
   }
 
   make[RemoteContextResolution].named("aggregate").fromEffect { (otherCtxResolutions: Set[RemoteContextResolution]) =>
